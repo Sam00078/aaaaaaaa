@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="ble_not_supported">BLE is not supported.</string>
+    <string name="label_data">Data:</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_exit">Exit</string>
+    <string name="exitDlg_Content">Are you sure want to exit?</string>
+    <string name="exitTip_Content">Please click BACK again to exit.</string>
+    <string name="label_default">- -</string>
+    <string name="menu_about">About</string>
+    <string name="label_companyName">JusteC ShenZhen CO.,Ltd</string>
+    <string name="label_companyAddr">http://www.justec.cn/</string>
+    <string name="menu_getRealtimeData">Get realtime data</string>
+    <string name="menu_stopTransmission">Stop</string>
+    <string name="label_temp">Temperature</string>
+    <string name="label_notouch">&#160;&#160;&#160;No touch</string>
+    <string name="label_goodContact">&#160;&#160;Good contact</string>
+    <string name="label_looseContact">&#160;&#160;Loose contact</string>
+    <string name="label_nomagnet">No magnet</string>
+    <string name="label_havemagnet">Have magnet</string>
+    <string name="menu_cali">Calibration</string>
+    <string name="title_Cali">Thermistor parameter calibration</string>
+    <string name="button_Cali">Calibration</string>
+    <string name="saved_file_name">Body Temp.txt</string>
+    <string name="label_paraSmallRes">Small Res:</string>
+    <string name="label_paraLargeRes">Large Res:</string>
+    <string name="label_paraTemp">Temp:</string>
+    <string name="hint_paraLargeRes">2499 Ω</string>
+    <string name="hint_paraSmallRes">1001 Ω</string>
+    <string name="hint_paraTemp">37 ℃</string>
+    <string name="hint_paraEmpty">Empty Para</string>
+    <string name="hint_paraAlreadyCali">Calibrated</string>
+    <string name="hint_paraResTooLarge">Cali value too large. Out of range 1001 to 2499</string>
+    <string name="hint_paraResTooSmall">Cali Value too small. Out of range 1001 to 2499</string>
+    <string name="hint_paraTempTooLarge">Cali value too large. Out of range 25 to 42</string>
+    <string name="hint_paraTempTooSmall">Cali value too small. Out of range 25 to 42</string>
+    <string name="hint_paraSmallResSuccess">Cali small res success.</string>
+    <string name="hint_paraLargeResSuccess">Cali large res success.</string>
+    <string name="hint_paraTempSuccess">Cali temp success.</string>
+    <string name="hint_paraLargeResNotAvailable">Cali large res failed, must cali small res first!</string>
+    <string name="hint_paraTempNotAvailable">Cali temp failed, must cali large res first!</string>
+    <string name="button_Recali">Recalibration</string>
+    <string name="button_Read">Read</string>
+    <string name="hint_paraSmallResTimeout">Cali small res timeout.</string>
+    <string name="hint_paraTempTimeout">Cali temp timeout.</string>
+    <string name="hint_paraLargeResTimeout">Cali large res timeout.</string>
+</resources>

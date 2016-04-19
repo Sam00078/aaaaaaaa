@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/android_temperature/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <color name="cardview_dark_background">#FF202020</color>
+    <color name="cardview_light_background">#FFFAFAFA</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/android_temperature/Application/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="holo_red_light">#ffff4444</color>
+    <declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/android_temperature/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="cardview_compat_inset_shadow">1dp</dimen>
+    <dimen name="cardview_default_elevation">2dp</dimen>
+    <dimen name="cardview_default_radius">2dp</dimen>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/android_temperature/Application/src/main/res/values/template-dimens.xml -->
+    <eat-comment/>
+    <dimen name="horizontal_page_margin">@dimen/margin_medium</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="vertical_page_margin">@dimen/margin_medium</dimen>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/android_temperature/Application/src/main/res/values/base-strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Body Temperature App</string>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/android_temperature/Application/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="ble_not_supported">BLE is not supported.</string>
+    <string name="button_Cali">Calibration</string>
+    <string name="button_Read">Read</string>
+    <string name="button_Recali">Recalibration</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="exitDlg_Content">Are you sure want to exit?</string>
+    <string name="exitTip_Content">Please click BACK again to exit.</string>
+    <string name="hint_paraAlreadyCali">Calibrated</string>
+    <string name="hint_paraEmpty">Empty Para</string>
+    <string name="hint_paraLargeRes">2499 Ω</string>
+    <string name="hint_paraLargeResNotAvailable">Cali large res failed, must cali small res first!</string>
+    <string name="hint_paraLargeResSuccess">Cali large res success.</string>
+    <string name="hint_paraLargeResTimeout">Cali large res timeout.</string>
+    <string name="hint_paraResTooLarge">Cali value too large. Out of range 1001 to 2499</string>
+    <string name="hint_paraResTooSmall">Cali Value too small. Out of range 1001 to 2499</string>
+    <string name="hint_paraSmallRes">1001 Ω</string>
+    <string name="hint_paraSmallResSuccess">Cali small res success.</string>
+    <string name="hint_paraSmallResTimeout">Cali small res timeout.</string>
+    <string name="hint_paraTemp">37 ℃</string>
+    <string name="hint_paraTempNotAvailable">Cali temp failed, must cali large res first!</string>
+    <string name="hint_paraTempSuccess">Cali temp success.</string>
+    <string name="hint_paraTempTimeout">Cali temp timeout.</string>
+    <string name="hint_paraTempTooLarge">Cali value too large. Out of range 25 to 42</string>
+    <string name="hint_paraTempTooSmall">Cali value too small. Out of range 25 to 42</string>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/android_temperature/Application/src/main/res/values/base-strings.xml -->
+    <eat-comment/>
+    <string name="intro_message">
+        <![CDATA[
+        
+            
+            This sample demonstrates how to use the Bluetooth LE Generic Attribute Profile (GATT)
+            to transmit arbitrary data between devices.
+            
+        
+        ]]>
+    </string>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/android_temperature/Application/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="label_companyAddr">http://www.justec.cn/</string>
+    <string name="label_companyName">JusteC ShenZhen CO.,Ltd</string>
+    <string name="label_data">Data:</string>
+    <string name="label_default">- -</string>
+    <string name="label_goodContact">  Good contact</string>
+    <string name="label_havemagnet">Have magnet</string>
+    <string name="label_looseContact">  Loose contact</string>
+    <string name="label_nomagnet">No magnet</string>
+    <string name="label_notouch">   No touch</string>
+    <string name="label_paraLargeRes">Large Res:</string>
+    <string name="label_paraSmallRes">Small Res:</string>
+    <string name="label_paraTemp">Temp:</string>
+    <string name="label_temp">Temperature</string>
+    <string name="menu_about">About</string>
+    <string name="menu_cali">Calibration</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_getRealtimeData">Get realtime data</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_stopTransmission">Stop</string>
+    <string name="saved_file_name">Body Temp.txt</string>
+    <string name="title_Cali">Thermistor parameter calibration</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_service">Unknown service</string>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/android_temperature/Application/src/main/res/values/template-styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="Theme.Sample"/>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/android_temperature/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/android_temperature/Application/src/main/res/values/template-styles.xml -->
+    <eat-comment/>
+    <style name="Theme.Base" parent="android:Theme.Light"/>
+    <style name="Theme.Sample" parent="Theme.Base"/>
+    <style name="Widget"/>
+    <style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="Widget.SampleMessageTile">
+        <item name="android:background">@drawable/tile</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+</resources>
